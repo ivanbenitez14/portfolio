@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+@import "tailwindcss";
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: black;
+  font-family: "Roboto Mono", monospace;
+  font-weight: 600;
+}
+
+.primary-color {
+  color: #00C2BA;
+}
+
+.secondary-color {
+  color: #FFFFFF;
+}
+
+.profile-border {
+  border: solid 3px #00C2BA;
+}
+
+.social-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 16px;
+  border: solid 2px #00C2BA;
+  border-radius: 8px;
+  padding: 16px;
+  width: 100%;
+}
+.social-btn:hover {
+  background-color: #00fff7;
+  transition: 1.5s;
+}
+
+.project-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid #00C2BA;
+  border-radius: 8px;
+  padding: 16px;
+  gap: 16px;
+}
