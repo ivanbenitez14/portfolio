@@ -5,7 +5,7 @@ import { LanguageProvider } from './context/LanguageContext'
 export const App = () => {
   return (
     <LanguageProvider>
-      <BrowserRouter>
+      <BrowserRouter basename="/portfolio">
         <AppRouter />
       </BrowserRouter>
     </LanguageProvider>
